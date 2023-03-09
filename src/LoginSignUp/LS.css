@@ -1,0 +1,52 @@
+.page {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.lsbox {
+  width: 25%;
+  min-width: 360px;
+  padding: 10px 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  border: 1px solid rgb(180, 180, 180);
+}
+
+.lsbox h1 {
+  line-height: 30px;
+  font-weight: 500;
+  color: rgb(62, 62, 207);
+}
+
+.lsbox .fieldline {
+  width: 100%;
+}
+
+.lsbox .fieldline input {
+  width: 94%;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 0;
+  border: 1px solid rgb(180, 180, 180);
+}
+
+.lsbox .fieldline button {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid rgb(62, 62, 207);
+  background: rgb(62, 62, 207);
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+.lsbox .fieldline button:hover {
+  filter: grayscale(50%);
+}
+
+.promptarea {
+  font-size: 14px;
+}
