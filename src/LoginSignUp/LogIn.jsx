@@ -4,7 +4,11 @@ import './LS.css';
 import { Link } from 'react-router-dom';
 
 function LogIn() {
-  const [prompt, setPromt ] = useState("Don't have an Account? <a href='/signup'>Sign Up</a>")
+  const [prompt, setPromt ] = useState(
+    {
+      text: "Don't have an Account? <a href='/signup'>Sign Up</a>", 
+      color: 'black'
+    })
 
   return (<>
   <LandingNav />
@@ -22,7 +26,7 @@ function LogIn() {
       <div className='fieldline'>
         <button> Log In </button>
       </div>
-      <div className='promptarea' dangerouslySetInnerHTML={{__html: prompt}} />
+      <div style={{color: prompt.color}} className='promptarea' dangerouslySetInnerHTML={{__html: prompt.text}} />
       </div>
     </div>
     </>)

@@ -12,7 +12,7 @@ function LandingPage() {
                 <div className="welcome">
                    <div className="imgdiv"><img src={logo} alt='logo' /></div> 
                     <div className='text'> 
-                        Welcome to The360Drinks Database!
+                        Welcome to the Number 1 All Round drinks Database!
                         <br />
                         <br />
                         An open, crowd-sourced well Categorised database of drinks and cocktails from around the world. Including Recipes, Glasses.
