@@ -1,0 +1,80 @@
+.landingNavbar {
+    height: 7.5vh;
+    background: rgb(20, 18, 31);
+    display: flex;
+    color: white;
+}
+
+.landingNavbar .left {
+    padding: 0 25px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingNavbar .left .imgdiv{
+    width: 325px;
+    height: 50px;
+}
+
+.landingNavbar .left .imgdiv img{
+ width: 100%;
+ height: 100%;
+} 
+
+.landingNavbar .right {
+   float: right;
+   position: absolute;
+   right: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 7.5vh;
+}
+
+.landingNavbar .right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingNavbar .right ul li{
+    padding: 10px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.landingNavbar .right ul li:nth-child(4),
+.landingNavbar .right ul li:nth-child(5) {
+    background-color: rgb(62, 149, 199);
+    border-radius: 4px;
+}
+
+.landingNavbar .right ul li:nth-child(5):hover,
+.landingNavbar .right ul li:nth-child(4):hover {
+    background: transparent;
+    color: rgb(62, 149, 199);
+}
+
+.landingNavbar .right ul li:nth-child(1):hover,
+.landingNavbar .right ul li:nth-child(2):hover,
+.landingNavbar .right ul li:nth-child(3):hover {
+    border-bottom: 1px solid white;
+}
+
+.explorebutton {
+    background-color: rgb(62, 149, 199);
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+
+.explorebutton:hover {
+    background: transparent;
+    color: rgb(62, 149, 199);
+}

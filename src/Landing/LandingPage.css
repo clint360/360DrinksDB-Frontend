@@ -1,0 +1,35 @@
+.land {
+  background: radial-gradient(rgba(0, 0, 0, 0.927), rgba(34, 45, 72, 0.575)), url('https://img.freepik.com/free-photo/selection-various-cocktails-table_140725-2909.jpg');
+  height: 92.5vh;
+  background-size: fit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.welcome {
+    width: 80%;
+    margin: auto;
+}
+
+.welcome .text{ 
+   padding: 10px;
+   text-align: center;
+   width: 70%;
+   max-width: 700px;
+   margin: auto;
+   font-size: 20px;
+}
+
+.welcome .imgdiv {
+ width: 90%;
+ max-width: 900px;
+ margin: auto;
+ height: 20%;
+}
+
+.welcome .imgdiv img {
+    width: 100%;
+    height: 100%;
+}
