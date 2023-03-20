@@ -3,9 +3,11 @@
   height: 100vh;
   align-items: center;
   justify-content: center;
+  background: radial-gradient(rgba(0, 0, 0, 0.927), rgba(34, 45, 72, 0.575)), url('https://img.freepik.com/free-photo/selection-various-cocktails-table_140725-2909.jpg');
 }
 
 .lsbox {
+  background: white;
   width: 25%;
   min-width: 360px;
   padding: 10px 30px;
@@ -17,7 +19,7 @@
 .lsbox h1 {
   line-height: 30px;
   font-weight: 500;
-  color: rgb(62, 62, 207);
+  color: rgb(62, 149, 199);
 }
 
 .lsbox .fieldline {
@@ -35,8 +37,8 @@
 .lsbox .fieldline button {
   width: 100%;
   padding: 10px 10px;
-  border: 1px solid rgb(62, 62, 207);
-  background: rgb(62, 62, 207);
+  border: 1px solid rgb(62, 149, 199);
+  background: rgb(62, 149, 199);
   font-size: 20px;
   color: white;
   cursor: pointer;

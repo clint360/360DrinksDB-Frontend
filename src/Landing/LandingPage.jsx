@@ -1,7 +1,8 @@
 import React from 'react'
 import LandingNav from './LandingNav/LandingNav'
 import './LandingPage.css';
-import logo from '../Assets/logo.png'
+import logo from '../Assets/logo.png';
+import { Link } from 'react-router-dom';
 
 function LandingPage() {
     return (
@@ -19,7 +20,7 @@ function LandingPage() {
                         If you like the site, please consider supporting us on Patreon by clicking the link below...
                     <br />
                     <br />
-                    <button className='explorebutton'>Explore</button>
+                    <button className='explorebutton'><Link to={'/explore'}>Explore</Link></button>
                     </div>
                 </div>
             </section>

@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import LandingNav from '../Landing/LandingNav/LandingNav';
 import './LS.css'
 
 function SignUp() {
   const [prompt, setPrompt] = useState('Have an Account? <a href="/login">LogIn<a/>')
 
-  return (
+  return (<>
+    <LandingNav />
     <div className='page'>
     <div className='lsbox'>
       <h1>Sign Up</h1>
@@ -38,7 +40,7 @@ function SignUp() {
       <div className='promptarea' dangerouslySetInnerHTML={{__html: prompt}} />
     </div>
     </div>
-  )
+    </>)
 }
 
 export default SignUp

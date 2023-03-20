@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
-import './LS.css'
+import LandingNav from '../Landing/LandingNav/LandingNav';
+import './LS.css';
+import { Link } from 'react-router-dom';
 
 function LogIn() {
-  const [prompt, setPromt ] = useState("Don't have an Account? <a href='/login'>Sign Up</a>")
+  const [prompt, setPromt ] = useState("Don't have an Account? <a href='/signup'>Sign Up</a>")
 
-  return (
+  return (<>
+  <LandingNav />
     <div className='page'>
       <div className="lsbox">
       <h1>Log In</h1>
@@ -22,7 +25,7 @@ function LogIn() {
       <div className='promptarea' dangerouslySetInnerHTML={{__html: prompt}} />
       </div>
     </div>
-  )
+    </>)
 }
 
 export default LogIn
