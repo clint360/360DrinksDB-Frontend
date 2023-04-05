@@ -1,0 +1,54 @@
+.sidebar {
+  width: 275px;
+  height: 100vh;
+  background: rgb(62, 149, 199);
+  padding-top: 25px;
+  position: fixed;
+}
+
+.logosection {
+  background: rgb(255, 255, 255);
+  width: 225px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 10px 10px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logosection img {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar .listsection ul {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 20px;
+  color: white;
+}
+
+.sidebar .listsection ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 25px;
+  height: 50px;
+  cursor: pointer;
+}
+.sidebar .listsection ul li i {
+  flex-basis: 15%;
+}
+
+.sidebar .listsection ul li:hover {
+  background: rgba(10, 6, 6, 0.356);
+}
+
+.sidebar .listsection ul li:last-child {
+  position: absolute;
+  bottom: 50px;
+  width: inherit;
+  width: 225px;
+}
