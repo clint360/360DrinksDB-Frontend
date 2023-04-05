@@ -5,6 +5,9 @@ import logo from '../../Assets/longlogo.png'
 function SideBar() {
   return (
     <div className='sidebar'>
+      <div className="userinfo"  style={{padding: '10px', fontSize: '20px', color: 'white'}}>
+        <span>User: [username]</span>
+      </div>
       <div className="logosection">
         <img src={logo} alt={'longlogo'} />
       </div>
